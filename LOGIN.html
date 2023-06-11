@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+      background-image: url('/img/bg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .user{
+        width: 80%;
+        height: 450px;
+        background-color:whitesmoke;
+        /* background-image: radial-gradient(rgb(18, 201, 207),white); */
+        border-radius: 5px;
+       border-style: solid ;
+        margin-top: 70px; 
+    }
+    #img-user{
+        width: 400px;
+        border-radius: 10px;
+        margin-left: 60px;
+        margin-top: 20px;
+
+    }
+    #welcome{
+        font-family: Georgia;
+        letter-spacing: 2px;
+        color: darkmagenta;
+       font-size: 45px;
+       
+        
+    }
+    #enter_name{
+        width: 400px;
+        height: 50px;
+        border-radius: 10px;
+        border-color: darkmagenta;
+       margin-top: 70px;
+    }
+    ::placeholder{
+        color:black;
+        letter-spacing: 3px;
+        font-size: 15px;
+        text-align: left;
+    }
+    #start-btn{
+        height: 55px;
+        width: 200px;
+        letter-spacing: 2px;
+        margin-top: 80px;
+        background-color: yellow;
+        border-radius: 20px;
+    }
+    #start-btn:hover{
+        background-color:blueviolet;
+        cursor: pointer;
+    }
+    #enter_name{
+        /* background-color: aqua; */
+        font-size: x-large;
+    }
+
+</style>
+<body>
+    <center>
+    <div class="user">
+        <h1 id="welcome">WELCOME !! </h1>
+        <img src="/img/user.jpg" alt="" id="img-user" align="left">
+        <input type="text" id="enter_name" value="" placeholder=" ENTER YOUR NAME..........."><br>
+        <a href="INSTRUCTION.html"> <button id="start-btn"> START QUIZ</button> </a> 
+    </div>
+    </center>
+    
+    <script src="js.js"></script>  
+</body>
+</html>
